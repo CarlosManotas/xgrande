@@ -1,0 +1,159 @@
+doctype html
+html(lang="es")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(name="format-detection", content="telephone=no")
+    link(rel="icon", href="img/favicon.png")
+    link(rel="stylesheet", href="css/styles.css")
+    title Xgrande
+  body(ng-app="myApp")
+    header#header
+      .barra
+        .ed-container.justify
+          .ed-item.base-50.web-30.cross-center
+            figure
+              img(src="img/logo-blanco.svg")
+          .ed-item.base-50.web-25.cross-center.abcenter
+            h2
+              span.icon-telefono.espacio (011)   
+              | 5454-5454
+      .ed-container
+        .ed-item.abcenter.no-padding
+          .titleh1
+            h1 ÉL, YO Y XGRANDE
+        .ed-item
+          figure
+            img(src="img/packx.png", alt="")
+          p.flex
+            img(src="img/candado.png", alt="")
+            | 100% Consulta Privada
+    section#seccion1
+      .ed-container
+        form(action="")
+          .ed-item.no-padding.distributed.height100
+            .input.aparecer-arriba
+              figure
+                img(src="img/logo-blanco.svg", alt="")
+              h5 COMPLETÁ EL FORMULARIO
+              p Y EMPEZÁ A DISFRUTAR LOS CAMBIOS.
+            .input.aparecer-abajo
+              input(type="text",required,placeholder="NOMBRE")
+            .input.aparecer-arriba
+              input(type="email",required,placeholder="E-MAIL")
+            .input.aparecer-abajo
+              input(type="number",required,placeholder="CÓD. ÁREA")
+            .input.aparecer-arriba
+              input(type="number",required,placeholder="TELÉFONO")
+            .input.aparecer-abajo
+              input(type="submit")
+    main
+      section#seccion2
+        .ed-container.height100.cross-center
+          .ed-item.tablet-50.aparecer-arriba
+            figure
+              img(src="img/amor.svg", alt="")
+            p 
+              span XGrande 
+              | es un gel íntimo formulado 
+              span con L-arginina y L-carnitina, 
+              | aminoácidos que tienen acción vasodilatadora y estimulante de la producción de óxido nítrico. Gracias a estas características, colaboran para aumentar el flujo sanguíneo en el miembro masculino y lograr así que se vea más grande y más firme. 
+              span Aplicalo 10 minutos antes de la relación sexual y vas a ver la diferencia.
+      section#seccion3.desde-movil
+        .ed-container.height100.cross-center
+          .ed-item.tablet-75
+            .diagonales.movil-40.tablet-60
+              .h2.blue(style="transition:all 3s")
+                h2 APLICACIÓN
+                P SOLO 3 PASOS PARA OBTENER<br> EL MEJOR RESULTADO
+            .diagonales.movil-35.tablet-50
+              .h2(style="transition:all 2s")
+                h2 PASO 1
+                P Entre 10 y 20 minutos antes del acto realizá<br> 1 o 2 aplicaciones.
+            .diagonales.movil-30.tablet-40
+              .h2(style="transition:all 1s")
+                h2 PASO 2
+                P Aplicá un masaje en el miembro hasta que<br> el gel sea absorbido.
+            .diagonales.movil-30.tablet-30
+              .h2(style="transition:all .5s")
+                h2 PASO 3
+                P YA ESTÁS LISTO. Para mejores resultados repetí<br> la aplicación y esperá a que el gel se absorba.
+          .ed-item.tablet-25.cross-center.abcenter
+            figure
+              img(src="img/n1.png", alt="")
+      section#seccion4
+        .ed-container.height100.cross-center
+          .ed-item.web-35
+            .blanco
+              h2.aparecer-abajo BENEFICIOS
+            ul
+              li.aparecer-derecha
+                span.icon-aceptar
+                | ERECCIONES FIRMES Y DURADERAS
+              li.aparecer-izquierda
+                span.icon-aceptar
+                | MÁS PLACER PARA TU PAREJA
+              li.aparecer-derecha
+                span.icon-aceptar
+                | MAYOR CONFIANZA EN LA CAMA
+              li.aparecer-izquierda
+                span.icon-aceptar
+                | SIN OLOR NI SABOR
+              li.aparecer-derecha
+                span.icon-aceptar
+                | POTENCIA TU RENDIMIENTO SEXUAL
+              li.aparecer-izquierda
+                span.icon-aceptar
+                | OPTIMIZA LOS MOMENTOS DE PLACER
+          .ed-item.web-30.no-padding
+            figure
+              img(src="img/bigpack.png", alt="")
+      section#seccion5
+        .ed-container
+          .ed-item.abcenter
+            h2 RESERVÁ EL TUYO AHORA MISMO!
+          .ed-item.abcenter.no-padding
+            form.ed-container(action="")
+              .input.ed-item.tablet-25.aparecer-izquierda
+                input(type="text",placeholder="Nombre")
+              .input.ed-item.tablet-25.aparecer-derecha
+                input(type="email",placeholder="E-mail")
+              .input.ed-item.tablet-25.aparecer-izquierda
+                input(type="number",placeholder="Cód. Área")
+              .input.ed-item.tablet-25.aparecer-derecha
+                input(type="number",placeholder="Teléfono")
+              .input.input-submit.aparecer-arriba
+                input(type="submit",value="COMPRAR")
+    footer#footer
+      .ed-container.height100
+        .ed-item.movil-50.tablet-25.cross-center.aparecer-derecha
+          .footer-item.cross-center
+            figure.base-20
+              img(src="img/Telefonista.png", alt="")
+            p.base-80 (011) 5544-3322<br> Conseguilo exclusivamente por venta telefónica.
+        .ed-item.movil-50.tablet-25.cross-center.aparecer-izquierda
+          .footer-item.cross-center
+            figure.base-20
+              img(src="img/Relojfooter.png", alt="")
+            p.base-80 Atención de 7 a 23 hs.
+        .ed-item.movil-50.tablet-25.cross-center.aparecer-derecha
+          .footer-item.cross-center
+            figure.base-20
+              img(src="img/Camioneta.png", alt="")
+            p.base-80 Envíos a domicilio en todo el país.
+        .ed-item.movil-50.tablet-25.cross-center.aparecer-izquierda
+          .footer-item.cross-center
+            figure.base-20
+              img(src="img/Tarjeta.png", alt="")
+            p.base-80 Aceptamos todas las tarjetas.
+      .ed-container.full.footer
+        .ed-item.abcenter
+          p Las imágenes fueron retocadas y/o modificadas digitalmente. // Los resultados pueden variar de persona en persona.
+          p Xgrande&#174; es una marca registrada 
+            a(href="terminos.html") terminos y condiciones.
+
+    script(src="js/isMobile.js")
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js")
+    script(src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js")
+    script(src="js/scripts.js")
+    script(src="js/app.js")

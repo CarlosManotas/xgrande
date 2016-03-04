@@ -1,0 +1,380 @@
+[
+	{
+		"name": "Analista en Recursos Humanos",
+		"imagesUrl": "analista-rrhh.jpg",
+		"link": "analista-rrhh.html",
+		"relacion": "b2",
+		"id" : "a1",
+		"objetivo": "<p>Con este curso el alumno aprenderá los conocimientos y las herramientas necesarias para convertirse en un experto de la gestión en materia de recursos humanos de una empresa. Podrá llevar a cabo los procesos de selección, contratación, formación de empleados y de emplear y retener al personal de una organización.</p><h2>Programa de estudio</h2><h3>Módulo I: Habilidades empresariales</h3><li>Contabilidad general</li><li>Gestión administrativa de personal</li><li>Contratación Laboral</li><li>Legislación básica de aplicación en la relación laboral</li><li>Contratación de recursos humanos</li><li>Modificación, suspensión y extinción de las condiciones de trabajo</li><li>Mantenimiento, control y actualización del fichero de personal</li><li>Cálculo de prestaciones de la Seguridad Social</li><li>Retribuciones Salariales, Cotización y Recaudación</li><li>Aplicaciones Informáticas de Administración de Recursos Humanos</li><li>Carga de datos relativos a la empresa</li><li>Carga de datos de los trabajadores</li><li>Gestión de incidencias del período de liquidación de salarios</li><li>Generación de documentos</li><br><h3>Módulo II: Gestión de recursos humanos</h3><li>Apoyo Administrativo a la Gestión de Recursos Humanos</li><li>Organización del trabajo y recursos humanos</li><li>Reclutamiento y selección de personal</li><li>La formación de los recursos humanos</li><li>Evaluación del desempeño del puesto de trabajo</li><li>Comunicación Efectiva y Trabajo en Equipo</li><li>Función del Mando Intermedio en la Prevención de Riesgos Laborales</li><li>Fundamentos básicos sobre seguridad y salud en el trabajo</li><li>Tipos de riesgo y medidas preventivas</li><li>Gestión de Sistemas de Información y Archivo</li><li>Sistemas de Archivo y Clasificación de Documentos</li><li>Utilización de las Bases de Datos Relaciones en el Sistema de Gestión y Almacenamiento de Datos</li><br><h3>Módulo III: Ofimática</h3><li>Sistema Operativo, Búsqueda de la Información: Internet/Intranet y Correo Electrónico</li><li>Aplicaciones Informáticas de Tratamiento de Textos</li><li>Conceptos generales y características fundamentales</li><li>Aplicaciones Informáticas de Hojas de Cálculo</li><li>Fórmulas</li><li>Funciones</li><li>Inserción de gráficos</li><li>Inserción de otros elementos dentro de una hoja de cálculo</li><li>Aplicaciones Informáticas de Bases de Datos Relacionales</li></li><li>Cambios en la estructura de tablas y creación de relacione</li><li>Aplicaciones Informáticas para Presentaciones: Gráficas de Información</li><li>Diseño organización y archivo de las presentaciones</li>",
+		"tipo": "administrativo"
+	},
+	{
+		"name": "Asistente de Marketing",
+		"imagesUrl": "asist-mkt.jpg",
+		"link": "asist-mkt.html",
+		"relacion": "4",
+		"id" : "a2",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium excepturi totam, sequi, laborum assumenda earum dolores natus obcaecati quam velit reprehenderit doloremque! Temporibus, laboriosam, id. Molestiae, consequatur. Quidem, ab itaque!",
+		"tipo": "administrativo"
+	},
+	{
+		"name": "Gestión de ventas",
+		"imagesUrl": "gest-ventas.jpg",
+		"link": "gest-ventas.html",
+		"relacion": "4",
+		"id" : "a3",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim at, accusantium. Quas iure optio voluptate nemo nihil eligendi aliquam iusto, commodi voluptatibus sapiente, architecto illo, consequuntur sit tempore corporis minima.",
+		"tipo": "administrativo"
+	},
+	{
+		"name": "Contabilidad",
+		"imagesUrl": "contabilidad.jpg",
+		"link": "contabilidad.html",
+		"relacion": "3",
+		"id" : "a4",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis corrupti quidem saepe dolor corporis sit, in! Iure, error, voluptatibus quidem unde perspiciatis, distinctio consectetur excepturi dolorum perferendis esse qui accusantium.",
+		"tipo": "administrativo"
+	},
+	{
+		"name": "Secretariado Ejecutivo",
+		"imagesUrl": "sec-ejecutivo.jpg",
+		"link": "sec-ejecutivo.html",
+		"relacion": "b2",
+		"id" : "a5",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure repudiandae, deserunt fuga facere magnam inventore in aut est laboriosam fugiat pariatur enim consequuntur. Rerum iste nihil iure magni, qui quasi?",
+		"tipo": "administrativo"
+	},
+	{
+		"name": "Asistente Contable",
+		"imagesUrl": "asist-contable.jpg",
+		"link": "asist-contable.html",
+		"relacion": "b2",
+		"id" : "a6",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quos aperiam, quisquam dolor totam dolore dolores, consequatur nihil hic eos perferendis voluptate deleniti doloribus! Impedit accusamus minima, aliquid placeat culpa!",
+		"tipo": "administrativo"
+	},
+	{
+		"name": "Administración de Empresas",
+		"imagesUrl": "adm-empresas.jpg",
+		"link": "adm-empresas.html",
+		"relacion": "b2",
+		"id" : "a7",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit nobis ducimus explicabo, dignissimos dolor ratione sunt distinctio, cumque illum debitis expedita iusto, inventore minima suscipit voluptates. Rem libero ullam delectus.",
+		"tipo": "administrativo"
+	},
+	{
+		"name": "Asistente Financiero",
+		"imagesUrl": "asist-financiero.jpg",
+		"link": "asist-financiero.html",
+		"relacion": "4",
+		"id" : "a8",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium sed eum commodi hic reiciendis, dicta asperiores unde dolor nostrum. Distinctio, animi unde architecto, debitis facilis voluptate praesentium deserunt tempora alias.",
+		"tipo": "administrativo"
+	},
+	{
+		"name": "Analista en Gestión Rural",
+		"imagesUrl": "gest-rural.jpg",
+		"link": "gest-rural.html",
+		"relacion": "a1",
+		"id" : "a9",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque nesciunt eveniet cum, officiis asperiores et ea, alias vitae tenetur quibusdam dignissimos laboriosam commodi, dolorem. Laudantium qui placeat rerum totam odit!",
+		"tipo": "administrativo"
+	},
+	{
+		"name": "Asistente en Comercio Exterior",
+		"imagesUrl": "asist-com-exterior.jpg",
+		"link": "asist-com-exterior.html",
+		"relacion": "3",
+		"id" : "10",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At fuga ipsa facere magnam, vero quod non aliquam. Veniam aperiam quis dolores eum velit voluptate saepe, esse vitae, architecto maxime modi.",
+		"tipo": "administrativo"
+	},
+	{
+		"name": "Atención al Cliente",
+		"imagesUrl": "at-cliente.jpg",
+		"link": "at-cliente.html",
+		"relacion": "4",
+		"id" : "11",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates vel accusamus, sequi nostrum adipisci architecto libero dolorum. Officiis, repudiandae, iusto. Laudantium consectetur sunt quidem quasi id, praesentium iste, nihil eaque.",
+		"tipo": "administrativo"
+	},
+	{
+		"name": "Gestión Contable y Auditoría Empresarial",
+		"imagesUrl": "gestion-cont-empre.jpg",
+		"link": "gestion-cont-empre.html",
+		"relacion": "3",
+		"id" : "12",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis non, ipsa ea neque saepe labore eos sequi illo harum minima esse minus fugiat nisi tempora recusandae, possimus accusamus voluptatem, fugit!",
+		"tipo": "administrativo"
+	},
+	{
+		"name": "Fotografía",
+		"imagesUrl": "fotografia.jpg",
+		"link": "fotografia.html",
+		"relacion": "10",
+		"id" : "13",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem eum, optio dolorum perspiciatis, aliquam sint natus ex reprehenderit sequi suscipit eaque voluptates. Porro autem sed necessitatibus, voluptatem rem ea voluptatibus.",
+		"tipo": "oficio"
+	},
+	{
+		"name": "Refrigeración",
+		"imagesUrl": "refrigeracion.jpg",
+		"link": "refrigeracion.html",
+		"relacion": "5",
+		"id" : "14",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio temporibus ratione quod repudiandae ipsa adipisci voluptate, quis dignissimos atque iste doloremque mollitia eveniet eos sed perferendis nihil molestiae labore, esse!",
+		"tipo": "oficio"
+	},
+	{
+		"name": "Peluquería",
+		"imagesUrl": "peluqueria.jpg",
+		"link": "peluqueria.html",
+		"relacion": "12",
+		"id" : "15",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo quidem beatae odit aliquid distinctio similique consequatur tempora sunt deserunt animi aperiam, dolorem commodi inventore, harum fuga quaerat ipsa voluptates pariatur.",
+		"tipo": "oficio"
+	},
+	{
+		"name": "Repostería",
+		"imagesUrl": "reposteria.jpg",
+		"link": "reposteria.html",
+		"relacion": "7",
+		"id" : "16",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quidem ut, cupiditate debitis, qui alias, nam doloremque ducimus repellendus rerum deleniti voluptatum praesentium. Sed eaque praesentium porro, omnis, tempore perspiciatis.",
+		"tipo": "oficio"
+	},
+	{
+		"name": "Técnico Electricista",
+		"imagesUrl": "electricista.jpg",
+		"link": "electricista.html",
+		"relacion": "5",
+		"id" : "17",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt sit facilis officia similique totam rem excepturi ut maiores optio voluptatem, quisquam porro nesciunt praesentium accusantium labore, velit asperiores blanditiis a.",
+		"tipo": "oficio"
+	},
+	{
+		"name": "Maquillaje",
+		"imagesUrl": "maquillaje.jpg",
+		"link": "maquillaje.html",
+		"relacion": "12",
+		"id" : "18",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci quos, laborum corporis, beatae nobis temporibus repudiandae iusto. Animi aspernatur nihil vel veniam eligendi consequuntur eveniet fugiat dolores impedit totam. Fugiat.",
+		"tipo": "oficio"
+	},
+	{
+		"name": "Cocina",
+		"imagesUrl": "cocina.jpg",
+		"link": "cocina.html",
+		"relacion": "7",
+		"id" : "19",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, culpa cumque veritatis nam assumenda nesciunt eos ullam excepturi dicta, aliquid consectetur dolorum quisquam possimus officiis eius debitis facere dolor suscipit.",
+		"tipo": "oficio"
+	},
+	{
+		"name": "Jardinería",
+		"imagesUrl": "jardineria.jpg",
+		"link": "jardineria.html",
+		"relacion": "a1",
+		"id" : "20",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid vitae nemo doloremque magni quas eum minus quibusdam omnis. Quas quia dolorum fuga. Doloremque illo, laudantium excepturi repellendus labore necessitatibus repudiandae!",
+		"tipo": "oficio"
+	},
+	{
+		"name": "Apicultura",
+		"imagesUrl": "apicultura.jpg",
+		"link": "apicultura.html",
+		"relacion": "a1",
+		"id" : "21",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium ea deleniti enim quae laborum accusamus reiciendis iusto tenetur provident tempore quam deserunt iste pariatur, placeat laboriosam vel adipisci quisquam officia.",
+		"tipo": "oficio"
+	},
+	{
+		"name": "Mecánica de vehículos",
+		"imagesUrl": "mec-auto.jpg",
+		"link": "mec-auto.html",
+		"relacion": "5",
+		"id" : "22",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic labore fugit nulla optio dolor praesentium ipsam minus rem, possimus nihil voluptatum, enim adipisci beatae totam doloremque doloribus, quae vitae excepturi.",
+		"tipo": "oficio"
+	},
+	{
+		"name": "Educación especial",
+		"imagesUrl": "ed-especial.jpg",
+		"link": "ed-especial.html",
+		"relacion": "6",
+		"id" : "23",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam accusantium possimus, quis expedita sequi est distinctio nulla neque quasi officiis, voluptates similique a incidunt illum omnis eius libero dolorem asperiores!",
+		"tipo": "oficio"
+	},
+	{
+		"name": "Conservas",
+		"imagesUrl": "conservas.jpg",
+		"link": "conservas.html",
+		"relacion": "7",
+		"id" : "24",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente quis distinctio porro quia eaque laborum, repellendus beatae alias tempora eligendi nisi dolor et ut iusto doloremque debitis perferendis perspiciatis doloribus.",
+		"tipo": "oficio"
+	},
+	{
+		"name": "Recreación y Tiempo libre",
+		"imagesUrl": "recreacion-tiempolibre.jpg",
+		"link": "recreacion-tiempolibre.html",
+		"relacion": "6",
+		"id" : "25",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore voluptatibus architecto, voluptatum fuga adipisci est distinctio ad, incidunt veritatis dolorum facilis quae quia dolores iure, saepe, iste molestiae ipsam fugit!",
+		"tipo": "oficio"
+	},
+	{
+		"name": "Reparación en Joyería",
+		"imagesUrl": "rep-joyeria.jpg",
+		"link": "rep-joyeria.html",
+		"relacion": "8",
+		"id" : "26",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At voluptas obcaecati ex est sint perferendis porro odio laudantium ipsum, modi sunt natus vero impedit quisquam, ullam, distinctio delectus eos. Ipsum.",
+		"tipo": "oficio"
+	},
+	{
+		"name": "Carpintería en Aluminio",
+		"imagesUrl": "aluminio.jpg",
+		"link": "aluminio.html",
+		"relacion": "9",
+		"id" : "27",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus incidunt voluptatum id sunt iure porro inventore, aliquam excepturi et natus omnis fugit cum dolores perspiciatis aspernatur recusandae facilis laborum quidem.",
+		"tipo": "oficio"
+	},
+	{
+		"name": "Carpintería",
+		"imagesUrl": "carpinteria.jpg",
+		"link": "carpinteria.html",
+		"relacion": "9",
+		"id" : "28",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam sit libero nam repudiandae officia adipisci expedita, praesentium numquam deserunt eveniet, sapiente perspiciatis reprehenderit ab reiciendis voluptatibus. Labore mollitia eos magni!",
+		"tipo": "oficio"
+	},
+	{
+		"name": "Albañilería",
+		"imagesUrl": "albanil.jpg",
+		"link": "albanil.html",
+		"relacion": "11",
+		"id" : "29",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos aperiam harum ducimus esse, perspiciatis provident necessitatibus pariatur, eius obcaecati sapiente nihil est soluta eveniet, facere commodi deserunt atque dolores animi!",
+		"tipo": "oficio"
+	},
+	{
+		"name": "Instalaciones Sanitarias y Gas",
+		"imagesUrl": "sanitarias-gas.jpg",
+		"link": "sanitarias-gas.html",
+		"relacion": "11",
+		"id" : "30",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias dolorum obcaecati nam dolore voluptatem neque, non recusandae maxime hic voluptas, corporis, doloribus architecto enim quos deleniti blanditiis totam eveniet velit!",
+		"tipo": "oficio"
+	},
+	{
+		"name": "Técnico Soldador",
+		"imagesUrl": "tec-soldador.jpg",
+		"link": "tec-soldador.html",
+		"relacion": "9",
+		"id" : "31",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, dignissimos beatae! Temporibus necessitatibus id, accusamus ipsa cupiditate quae, illum eos voluptate inventore numquam rem esse eveniet quas similique unde itaque!",
+		"tipo": "oficio"
+	},
+	{
+		"name": "Inglés",
+		"imagesUrl": "ingles.jpg",
+		"link": "ingles.html",
+		"relacion": "3",
+		"id" : "32",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa odit tempora, corporis dolores perferendis veniam consequuntur cumque quaerat qui. Aliquid, eum est! Architecto culpa explicabo nostrum, eum mollitia facere odit?",
+		"tipo": "oficio"
+	},
+	{
+		"name": "Control de Plagas en Jardinería",
+		"imagesUrl": "ctrol-plagas.jpg",
+		"link": "ctrol-plagas.html",
+		"relacion": "a1",
+		"id" : "33",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam consequuntur provident libero quae. Inventore vero, itaque similique dignissimos libero harum ab pariatur, voluptatibus quam in mollitia illum odit odio officia.",
+		"tipo": "oficio"
+	},
+	{
+		"name": "Creación de Páginas web",
+		"imagesUrl": "d-web.jpg",
+		"link": "d-web.html",
+		"relacion": "10",
+		"id" : "34",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quasi quis quisquam, iste repellat a maxime obcaecati at. Laudantium, quisquam commodi autem aut voluptate sequi veniam sed distinctio ex dolorum.",
+		"tipo": "oficio"
+	},
+	{
+		"name": "Decoración artesanal",
+		"imagesUrl": "decor-artesanal.jpg",
+		"link": "decor-artesanal.html",
+		"relacion": "8",
+		"id" : "35",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum enim accusamus, placeat neque adipisci, explicabo voluptatum recusandae, aut itaque, perspiciatis aliquam reprehenderit dolorem magni doloremque! Qui fugiat porro, velit molestias!",
+		"tipo": "oficio"
+	},
+	{
+		"name": "Diseñador gráfico",
+		"imagesUrl": "d-grafico.jpg",
+		"link": "d-grafico.html",
+		"relacion": "10",
+		"id" : "36",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum consequatur mollitia alias eligendi omnis cupiditate vel natus expedita voluptas at, culpa cum ipsam doloribus facere molestias nostrum. Fuga pariatur, facilis!",
+		"tipo": "oficio"
+	},
+	{
+		"name": "Diseño de indumentaria",
+		"imagesUrl": "d-indumentaria.jpg",
+		"link": "d-indumentaria.html",
+		"relacion": "8",
+		"id" : "37",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, quam. Hic eveniet, harum. Vero sequi molestiae obcaecati adipisci voluptatem possimus, quis! Itaque mollitia, reprehenderit rerum eos hic minus illo ipsa?",
+		"tipo": "oficio"
+	},
+	{
+		"name": "Masajes y Spa",
+		"imagesUrl": "masajes-spa.jpg",
+		"link": "masajes-spa.html",
+		"relacion": "12",
+		"id" : "38",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt aspernatur sit magni, autem recusandae assumenda ipsum nemo corporis accusamus consequatur possimus sunt in odio laudantium qui necessitatibus reprehenderit neque eius?",
+		"tipo": "oficio"
+	},
+	{
+		"name": "Productor de Seguros",
+		"imagesUrl": "prod-seguros.jpg",
+		"link": "prod-seguros.html",
+		"relacion": "4",
+		"id" : "39",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, neque nisi assumenda voluptates optio vel! Rem, iste molestias numquam tenetur quidem, laudantium iusto totam illum nihil beatae sapiente ad nulla.",
+		"tipo": "oficio"
+	},
+	{
+		"name": "Profesional en estética",
+		"imagesUrl": "estetica.jpg",
+		"link": "estetica.html",
+		"relacion": "12",
+		"id" : "40",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate neque, vel dolores aliquid voluptates deserunt nisi alias dolorem quo dolorum aut distinctio voluptas, ducimus? Cumque, amet quas? Commodi, asperiores fugit?",
+		"tipo": "oficio"
+	},
+	{
+		"name": "Profesional en turismo y hotelería",
+		"imagesUrl": "hotel-turismo.jpg",
+		"link": "hotel-turismo.html",
+		"relacion": "3",
+		"id" : "41",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit excepturi similique qui, aliquam. Aspernatur ea beatae odio, maxime velit nostrum non temporibus blanditiis distinctio, iusto vero commodi accusamus excepturi et?",
+		"tipo": "oficio"
+	},
+	{
+		"name": "Reparación de la electrónica",
+		"imagesUrl": "rep-electronica.jpg",
+		"link": "rep-electronica.html",
+		"relacion": "5",
+		"id" : "42",
+		"objetivo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione vitae dolores, quos neque et officia ipsum error cum quibusdam, recusandae sint illum voluptas quam unde eius aliquam consequatur, mollitia rem!",
+		"tipo": "oficio"
+	}
+]

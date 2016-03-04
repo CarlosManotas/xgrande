@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Xgrande</title>
+  </head>
+  <body ng-app="myApp">
+    <div class="preload">
+      <div class="ed-container height100 cross-center">
+        <div class="ed-item abcenter">
+          <figure>
+            <img src="img/logox.svg" alt="">
+          </figure>
+          <svg>
+            <circle cx="90" cy="90" r="50">
+          </svg>
+        </div>
+      </div>
+    </div>
+    <header id="header">
+      <div class="barra">
+        <div class="ed-container justify">
+          <div class="ed-item base-50 web-30 cross-center">
+            <figure><img src="img/logo-blanco.svg"></figure>
+          </div>
+          <div class="ed-item base-50 web-25 cross-center abcenter">
+            <h2><span class="icon-telefono espacio">(011)   </span>5454-5454</h2>
+          </div>
+        </div>
+      </div>
+      <div class="ed-container">
+        <div class="ed-item abcenter no-padding">
+          <div class="titleh1">
+            <h1>ÉL, YO Y XGRANDE</h1>
+          </div>
+        </div>
+        <div class="ed-item">
+          <figure><img src="img/packx.png" alt=""></figure>
+          <p class="flex"><img src="img/candado.png" alt="">100% Consulta Privada</p>
+        </div>
+      </div>
+    </header>
+    <section id="seccion1">
+      <div class="ed-container" ng-controller="formularioCtrl">
+        <form action="form.php" method="post" name="formularioTop" ng-submit="formularioTop.$valid">
+          <div class="ed-item no-padding distributed height100">
+            <div class="input aparecer-arriba">
+              <figure><img src="img/logo-blanco.svg" alt=""></figure>
+              <h5>COMPLETÁ EL FORMULARIO</h5>
+              <p>Y EMPEZÁ A DISFRUTAR LOS CAMBIOS.</p>
+            </div>
+            <div class="input aparecer-abajo">
+              <input type="text"  name="nombre" ng-model="formData.nombre" placeholder="Nombre y Apellido" ng-minlength="2" required/>
+              <span class="showMe" ng-show="formularioTop.$dirty && formularioTop.nombre.$error.minlength">Tu Nombre es requerido</span>
+            </div>
+            <div class="input aparecer-arriba">
+              <input type="email"  name="email" ng-model="formData.email" placeholder="E-mail" ng-pattern="/^([0-9a-zA-Z_]([-.\w]*[0-9a-zA-Z_.-])*@([0-9a-zA-Z][-\w]*[0-9a-zA-Z]\.)+[a-zA-Z]{2,9})$/" required/>
+              <span class="showMe" ng-show="formularioTop.$dirty && formularioTop.email.$error.pattern">Colocá un mail válido</span>
+            </div>
+            <div class="input aparecer-abajo">
+              <input type="number"  name="cod" ng-model="formData.cod"  ng-maxlength="5" ng-minlength="2" placeholder="Cod. Área" required/>
+              <span class="showMe" ng-show="formularioTop.$dirty && formularioTop.cod.$error.minlength">El código es muy corto</span>
+              <span class="showMe" ng-show="formularioTop.$dirty && formularioTop.cod.$error.maxlength">El código es muy largo</span>
+            </div>
+            <div class="input aparecer-arriba">
+              <input type="number"  name="telefono" ng-model="formData.telefono" ng-minlength="6" placeholder="Teléfono" required/>
+              <span class="showMe" ng-show="formularioTop.$dirty && formularioTop.telefono.$error.minlength">Colocá un teléfono válido</span>
+            </div>
+            <div class="input aparecer-abajo">
+              <input type="submit" ng-show="formularioTop.$valid" ng-click="submitForm(formData)" value="QUIERO INFORMARME"/>
+              <input type="submit" ng-show="formularioTop.$invalid" value="COMPLETÁ LOS DATOS" ng-disabled="formularioTop.$invalid"/>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <main>
+      <section id="seccion2">
+        <div class="ed-container height100 cross-center">
+          <div class="ed-item tablet-50 aparecer-arriba">
+            <figure><img src="img/amor.svg" alt=""></figure>
+            <p> <span>XGrande </span>es un gel íntimo formulado <span>con L-arginina y L-carnitina, </span>aminoácidos que tienen acción vasodilatadora y estimulante de la producción de óxido nítrico. Gracias a estas características, colaboran para aumentar el flujo sanguíneo en el miembro masculino y lograr así que se vea más grande y más firme. <span>Aplicalo 10 minutos antes de la relación sexual y vas a ver la diferencia.</span></p>
+          </div>
+        </div>
+      </section>
+      <section id="seccion3" class="desde-movil">
+        <div class="ed-container height100 cross-center">
+          <div class="ed-item tablet-75">
+            <div class="diagonales movil-40 tablet-60">
+              <div style="transition:all 3s" class="h2 blue">
+                <h2>APLICACIÓN</h2>
+                <P>SOLO 3 PASOS PARA OBTENER<br> EL MEJOR RESULTADO</P>
+              </div>
+            </div>
+            <div class="diagonales movil-35 tablet-50">
+              <div style="transition:all 2s" class="h2">
+                <h2>PASO 1</h2>
+                <P>Entre 10 y 20 minutos antes del acto realizá<br> 1 o 2 aplicaciones.</P>
+              </div>
+            </div>
+            <div class="diagonales movil-30 tablet-40">
+              <div style="transition:all 1s" class="h2">
+                <h2>PASO 2</h2>
+                <P>Aplicá un masaje en el miembro hasta que<br> el gel sea absorbido.</P>
+              </div>
+            </div>
+            <div class="diagonales movil-30 tablet-30">
+              <div style="transition:all .5s" class="h2">
+                <h2>PASO 3</h2>
+                <P>YA ESTÁS LISTO. Para mejores resultados repetí<br> la aplicación y esperá a que el gel se absorba.</P>
+              </div>
+            </div>
+          </div>
+          <div class="ed-item tablet-25 cross-center abcenter">
+            <figure><img src="img/n1.png" alt=""></figure>
+          </div>
+        </div>
+      </section>
+      <section id="seccion4">
+        <div class="ed-container height100 cross-center">
+          <div class="ed-item web-35">
+            <div class="blanco">
+              <h2 class="aparecer-abajo">BENEFICIOS</h2>
+            </div>
+            <ul>
+              <li class="aparecer-derecha"><span class="icon-aceptar"></span>ERECCIONES FIRMES Y DURADERAS</li>
+              <li class="aparecer-izquierda"><span class="icon-aceptar"></span>MÁS PLACER PARA TU PAREJA</li>
+              <li class="aparecer-derecha"><span class="icon-aceptar"></span>MAYOR CONFIANZA EN LA CAMA</li>
+              <li class="aparecer-izquierda"><span class="icon-aceptar"></span>SIN OLOR NI SABOR</li>
+              <li class="aparecer-derecha"><span class="icon-aceptar"></span>POTENCIA TU RENDIMIENTO SEXUAL</li>
+              <li class="aparecer-izquierda"><span class="icon-aceptar"></span>OPTIMIZA LOS MOMENTOS DE PLACER</li>
+            </ul>
+          </div>
+          <div class="ed-item web-30 no-padding">
+            <figure><img src="img/bigpack.png" alt=""></figure>
+          </div>
+        </div>
+      </section>
+      <section id="seccion5">
+        <div class="ed-container">
+          <div class="ed-item abcenter">
+            <h2>RESERVÁ EL TUYO AHORA MISMO!</h2>
+          </div>
+          <div class="ed-item abcenter no-padding" ng-controller="formularioCtrl">
+            <form action="form.php" method="post" name="formularioTop" ng-submit="formularioTop.$valid" class="ed-container">
+              <div class="input ed-item tablet-25 aparecer-izquierda">
+                <input type="text"  name="nombre" ng-model="formData.nombre" placeholder="Nombre y Apellido" ng-minlength="2" required/>
+                <span class="showMe" ng-show="formularioTop.$dirty && formularioTop.nombre.$error.minlength">Tu Nombre es requerido</span>
+              </div>
+              <div class="input ed-item tablet-25 aparecer-derecha">
+                <input type="email"  name="email" ng-model="formData.email" placeholder="E-mail" ng-pattern="/^([0-9a-zA-Z_]([-.\w]*[0-9a-zA-Z_.-])*@([0-9a-zA-Z][-\w]*[0-9a-zA-Z]\.)+[a-zA-Z]{2,9})$/" required/>
+                <span class="showMe" ng-show="formularioTop.$dirty && formularioTop.email.$error.pattern">Colocá un mail válido</span>
+              </div>
+              <div class="input ed-item tablet-25 aparecer-izquierda">
+                <input type="number"  name="cod" ng-model="formData.cod"  ng-maxlength="5" ng-minlength="2" placeholder="Cod. Área" required/>
+                <span class="showMe" ng-show="formularioTop.$dirty && formularioTop.cod.$error.minlength">El código es muy corto</span>
+                <span class="showMe" ng-show="formularioTop.$dirty && formularioTop.cod.$error.maxlength">El código es muy largo</span>
+              </div>
+              <div class="input ed-item tablet-25 aparecer-derecha">
+                <input type="number"  name="telefono" ng-model="formData.telefono" ng-minlength="6" placeholder="Teléfono" required/>
+                <span class="showMe" ng-show="formularioTop.$dirty && formularioTop.telefono.$error.minlength">Colocá un teléfono válido</span>
+              </div>
+              <div class="input input-submit aparecer-arriba">
+                <input type="submit" ng-show="formularioTop.$valid" ng-click="submitForm(formData)" value="COMPRAR"/>
+                <input type="submit" ng-show="formularioTop.$invalid" value="COMPLETÁ LOS DATOS" ng-disabled="formularioTop.$invalid"/>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <div class="ed-container height100">
+        <div class="ed-item movil-50 tablet-25 cross-center aparecer-derecha">
+          <div class="footer-item cross-center">
+            <figure class="base-20"><img src="img/Telefonista.png" alt=""></figure>
+            <p class="base-80">(011) 5544-3322<br> Conseguilo exclusivamente por venta telefónica.</p>
+          </div>
+        </div>
+        <div class="ed-item movil-50 tablet-25 cross-center aparecer-izquierda">
+          <div class="footer-item cross-center">
+            <figure class="base-20"><img src="img/Relojfooter.png" alt=""></figure>
+            <p class="base-80">Atención de 7 a 23 hs.</p>
+          </div>
+        </div>
+        <div class="ed-item movil-50 tablet-25 cross-center aparecer-derecha">
+          <div class="footer-item cross-center">
+            <figure class="base-20"><img src="img/Camioneta.png" alt=""></figure>
+            <p class="base-80">Envíos a domicilio en todo el país.</p>
+          </div>
+        </div>
+        <div class="ed-item movil-50 tablet-25 cross-center aparecer-izquierda">
+          <div class="footer-item cross-center">
+            <figure class="base-20"><img src="img/Tarjeta.png" alt=""></figure>
+            <p class="base-80">Aceptamos todas las tarjetas.</p>
+          </div>
+        </div>
+      </div>
+      <div class="ed-container full footer">
+        <div class="ed-item abcenter">
+          <p>Las imágenes fueron retocadas y/o modificadas digitalmente. // Los resultados pueden variar de persona en persona.</p>
+          <p>Xgrande&#174; es una marca registrada <a href="terminos.html">terminos y condiciones.</a></p>
+        </div>
+      </div>
+    </footer>
+    <script src="js/isMobile.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
